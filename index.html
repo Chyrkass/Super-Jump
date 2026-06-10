@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Jump — Интеллект-тренер</title>
-    <link rel="stylesheet" href="style.css">
+
 </head>
 <body data-theme="light">
 
-    <!-- ===== HEADER ===== -->
+    <!-- HEADER -->
     <header class="header" id="header">
         <div class="header__inner">
-            <a href="#me" class="logo" aria-label="Super Jump — на главную">
+            <a href="#hero" class="logo">
                 <div class="logo__icon">SJ</div>
                 <div class="logo__text">Super<span>Jump</span></div>
             </a>
             <nav class="nav" id="nav">
-                <a href="#me" class="nav__link">Обо мне</a>
-                <a href="#course" class="nav__link">Методика</a>
+                <a href="#trainer" class="nav__link">Обо мне</a>
+                <a href="#course" class="nav__link">О курсе</a>
                 <a href="#reviews" class="nav__link">Отзывы</a>
                 <a href="#library" class="nav__link">Библиотека</a>
                 <a href="#test" class="nav__link">Пройти тест</a>
                 <a href="#gift" class="nav__link">Получить подарок</a>
-                <a href="#enroll" class="nav__link nav__link--accent">Записаться на курс</a>
+                <a href="#certs" class="nav__link">Сертификаты</a>
+                <a href="#enroll" class="nav__link nav__link--accent">Записаться</a>
             </nav>
-            <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему" title="Тёмная / светлая тема"></button>
+            <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему"></button>
             <button class="burger" id="burger" aria-label="Меню">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </header>
 
-    <!-- ===== HERO ===== -->
-    <section class="section section--hero" id="hero">
+    <!-- HERO -->
+    <section class="section--hero" id="hero">
         <div class="hero__inner">
             <div class="hero__badge">🧠 Ассоциация Super Jump</div>
             <h1 class="hero__title">Интеллект-тренер<br><span>нового поколения</span></h1>
@@ -51,8 +52,8 @@
                 <span>🧠</span>
             </div>
             <div class="trainer-info">
-                <h3>Екатерина Золотарева</h3>
-                <div class="trainer-subtitle">Сертифицированный интеллект-тренер</div>
+                <h3>Александр Соколов</h3>
+                <div class="trainer-subtitle">Сертифицированный интеллект-тренер, коуч ICF</div>
                 <p>Более 12 лет я помогаю людям раскрывать потенциал мозга. Разработал авторскую методику <strong>Super Jump</strong>, объединяющую нейронауку, игровые техники и коучинг. Провёл 200+ тренингов и выпустил 1500+ учеников.</p>
                 <p>Образование: МГУ (психология), NeuroAcademy (нейрокоучинг), Erickson College (коучинг). Постоянно учусь и внедряю передовые технологии развития интеллекта.</p>
                 <div class="trainer-stats">
@@ -69,37 +70,36 @@
         </div>
     </section>
 
-
-    <!-- ===== О КУРСЕ ===== -->
+    <!-- О КУРСЕ -->
     <section class="section" id="course">
         <h2 class="section__title">О курсе</h2>
         <p class="section__subtitle">Что вас ждёт в программе интеллект-тренировок Super Jump</p>
         <div class="about-grid">
             <div class="about-card">
                 <div class="about-card__icon">⚡</div>
-                <div class="about-card__title">Онлайн формат</div>
+                <div class="about-card__title">Скорость мышления</div>
                 <p>Упражнения на реакцию и быстроту принятия решений в нестандартных ситуациях.</p>
             </div>
             <div class="about-card">
                 <div class="about-card__icon">🧩</div>
-                <div class="about-card__title">10 дней </div>
-                <p>Общая длительность курса</p>
+                <div class="about-card__title">Логика и стратегия</div>
+                <p>Разбор сложных кейсов, построение цепочек рассуждений и стратегическое планирование.</p>
             </div>
             <div class="about-card">
                 <div class="about-card__icon">💡</div>
-                <div class="about-card__title">1 час </div>
-                <p>Продолжительность тренировок</p>
+                <div class="about-card__title">Креативный интеллект</div>
+                <p>ТРИЗ, латеральное мышление и генерация прорывных идей под руководством тренера.</p>
             </div>
             <div class="about-card">
                 <div class="about-card__icon">🎯</div>
-                <div class="about-card__title">8 жемчужин</div>
-                <p>8 упражнений для восполнения и сохранения энергии</p>
+                <div class="about-card__title">Фокус и концентрация</div>
+                <p>Техники глубокой концентрации, управление вниманием и цифровой детокс.</p>
             </div>
         </div>
     </section>
 
-    <!-- ===== ОТЗЫВЫ ===== -->
-    <section class="section" id="reviews" style="background: var(--section-alt); max-width: 100%;">
+    <!-- ОТЗЫВЫ -->
+    <section class="section--alt" id="reviews">
         <div style="max-width:1200px;margin:0 auto;padding:0 20px;">
             <h2 class="section__title">Отзывы</h2>
             <p class="section__subtitle">Истории тех, кто уже прокачал свой интеллект с Super Jump</p>
@@ -123,7 +123,7 @@
         </div>
     </section>
 
-    <!-- ===== БИБЛИОТЕКА ===== -->
+    <!-- БИБЛИОТЕКА -->
     <section class="section" id="library">
         <h2 class="section__title">Библиотека</h2>
         <p class="section__subtitle">Бесплатные материалы для самостоятельного развития</p>
@@ -151,8 +151,8 @@
         </div>
     </section>
 
-    <!-- ===== ПРОЙТИ ТЕСТ ===== -->
-    <section class="section" id="test" style="background: var(--section-alt); max-width: 100%;">
+    <!-- ПРОЙТИ ТЕСТ -->
+    <section class="section--alt" id="test">
         <div style="max-width:1200px;margin:0 auto;padding:0 20px;">
             <h2 class="section__title">Пройти тест</h2>
             <p class="section__subtitle">Проверьте свой текущий уровень интеллектуальной гибкости</p>
@@ -170,43 +170,71 @@
         </div>
     </section>
 
-    <!-- ===== ПОЛУЧИТЬ ПОДАРОК ===== -->
-    <section class="section" id="gift">
-        <h2 class="section__title">Получить подарок</h2>
-        <p class="section__subtitle">Оставьте email и получите бесплатный гайд «5 нейрохаков для продуктивности»</p>
-        <div class="gift-box">
-            <div class="gift-box__icon">🎁</div>
-            <div class="gift-box__title">Ваш подарок ждёт!</div>
-            <p style="color:var(--text-secondary);">Мы отправим гайд на вашу почту в течение минуты.</p>
-            <form class="gift-form" id="giftForm">
-                <input type="email" placeholder="Введите ваш email" required>
-                <button type="submit" class="btn btn--accent">Получить 🎁</button>
-            </form>
-            <p id="giftMessage" style="margin-top:14px;font-weight:600;color:var(--success);min-height:22px;"></p>
-        </div>
-    </section>
-
-    <!-- ===== ЗАПИСАТЬСЯ НА КУРС ===== -->
-    <section class="section" id="enroll" style="background: var(--section-alt); max-width: 100%;">
-        <div style="max-width:1200px;margin:0 auto;padding:0 20px;">
-            <h2 class="section__title">Записаться на курс</h2>
-            <p class="section__subtitle">Начните свою трансформацию уже сегодня</p>
-            <div style="max-width:500px;margin:0 auto;text-align:center;">
-                <button class="btn btn--accent" style="font-size:1.15rem;padding:16px 40px;" id="openEnrollModal">📝 Оставить заявку</button>
+    <!-- СЕРТИФИКАТЫ -->
+    <section class="section" id="certs">
+        <h2 class="section__title">Сертификаты</h2>
+        <p class="section__subtitle">Подтверждение квалификации наших тренеров</p>
+        <div class="certs-grid">
+            <div class="cert-card">
+                <div class="cert-card__img">🏅</div>
+                <h3>Международный сертификат</h3>
+                <p style="color:var(--text-secondary);">ICF, 2024</p>
+            </div>
+            <div class="cert-card">
+                <div class="cert-card__img">📜</div>
+                <h3>Диплом психолога</h3>
+                <p style="color:var(--text-secondary);">МГУ, 2020</p>
+            </div>
+            <div class="cert-card">
+                <div class="cert-card__img">🧠</div>
+                <h3>Нейротренер</h3>
+                <p style="color:var(--text-secondary);">NeuroAcademy, 2022</p>
+            </div>
+            <div class="cert-card">
+                <div class="cert-card__img">🎓</div>
+                <h3>Коуч по развитию</h3>
+                <p style="color:var(--text-secondary);">Erickson College, 2021</p>
             </div>
         </div>
     </section>
 
-    <!-- ===== FOOTER ===== -->
+    <!-- ПОЛУЧИТЬ ПОДАРОК -->
+    <section class="section--alt" id="gift">
+        <div style="max-width:1200px;margin:0 auto;padding:0 20px;">
+            <h2 class="section__title">Получить подарок</h2>
+            <p class="section__subtitle">Оставьте email и получите бесплатный гайд «5 нейрохаков для продуктивности»</p>
+            <div class="gift-box">
+                <div class="gift-box__icon">🎁</div>
+                <div class="gift-box__title">Ваш подарок ждёт!</div>
+                <p style="color:var(--text-secondary);">Мы отправим гайд на вашу почту в течение минуты.</p>
+                <form class="gift-form" id="giftForm">
+                    <input type="email" placeholder="Введите ваш email" required>
+                    <button type="submit" class="btn btn--accent">Получить 🎁</button>
+                </form>
+                <p id="giftMessage" style="margin-top:14px;font-weight:600;color:var(--success);min-height:22px;"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ЗАПИСАТЬСЯ НА КУРС -->
+    <section class="section" id="enroll">
+        <h2 class="section__title">Записаться на курс</h2>
+        <p class="section__subtitle">Начните свою трансформацию уже сегодня</p>
+        <div style="max-width:500px;margin:0 auto;text-align:center;">
+            <button class="btn btn--accent" style="font-size:1.15rem;padding:16px 40px;" id="openEnrollModal">📝 Оставить заявку</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="footer">
         <p>© 2026 Super Jump — Ассоциация интеллект-тренеров. Все права защищены.</p>
         <p style="margin-top:4px;opacity:0.7;">Развивай мозг · Меняй жизнь · Прыгай выше</p>
     </footer>
 
-    <!-- ===== BACK TO TOP ===== -->
-    <button class="back-to-top" id="backToTop" aria-label="Наверх" title="Наверх">↑</button>
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Наверх">↑</button>
 
-    <!-- ===== MODAL: Запись на курс ===== -->
+    <!-- MODAL: Запись -->
     <div class="modal" id="enrollModal">
         <div class="modal__content">
             <button class="modal__close" id="closeEnrollModal">✕</button>
@@ -225,7 +253,6 @@
         const themeToggle = document.getElementById('themeToggle');
         const body = document.body;
 
-        // Проверяем сохранённую тему
         const savedTheme = localStorage.getItem('superjump-theme');
         if (savedTheme === 'dark') {
             body.setAttribute('data-theme', 'dark');
@@ -263,27 +290,34 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // ===== MOBILE BURGER MENU =====
+        // ===== MOBILE MENU =====
         const burger = document.getElementById('burger');
         const nav = document.getElementById('nav');
         burger.addEventListener('click', () => {
             burger.classList.toggle('active');
             nav.classList.toggle('active');
         });
-        // Закрытие меню при клике на ссылку
         nav.querySelectorAll('.nav__link').forEach(link => {
             link.addEventListener('click', () => {
                 burger.classList.remove('active');
                 nav.classList.remove('active');
             });
         });
-        // Закрытие по клику вне меню
         document.addEventListener('click', (e) => {
-            if (!nav.contains(e.target) && !burger.contains(e.target) && nav.classList.contains(
-                'active')) {
+            if (!nav.contains(e.target) && !burger.contains(e.target) && nav.classList.contains('active')) {
                 burger.classList.remove('active');
                 nav.classList.remove('active');
             }
+        });
+
+        // ===== TRAINER BUTTONS =====
+        document.getElementById('openVideoBtn').addEventListener('click', () => {
+            alert('🎬 Видео-визитка Александра Соколова скоро появится! А пока подпишитесь на обновления.');
+        });
+        document.getElementById('openConsultBtn').addEventListener('click', () => {
+            document.getElementById('enrollModal').classList.add('active');
+            // Меняем заголовок модального окна для консультации
+            document.querySelector('#enrollModal .modal__title').textContent = 'Получить консультацию';
         });
 
         // ===== TEST LOGIC =====
@@ -294,12 +328,9 @@
         let testAnswered = false;
 
         const questions = [
-            { q: 'Какая фигура лишняя в ряду: квадрат, круг, треугольник, прямоугольник?', correct: 'Круг',
-                explanation: 'Верно! Круг — единственная фигура без углов.' },
-            { q: 'Сколько месяцев в году имеют 28 дней?', correct: 'Все 12',
-            explanation: 'Верно! Каждый месяц имеет как минимум 28 дней.' },
-            { q: 'Что становится мокрым, пока сушит?', correct: 'Полотенце',
-            explanation: 'Верно! Полотенце намокает, когда вытирает что-то.' },
+            { q: 'Какая фигура лишняя в ряду: квадрат, круг, треугольник, прямоугольник?', correct: 'Круг', explanation: 'Верно! Круг — единственная фигура без углов.' },
+            { q: 'Сколько месяцев в году имеют 28 дней?', correct: 'Все 12', explanation: 'Верно! Каждый месяц имеет как минимум 28 дней.' },
+            { q: 'Что становится мокрым, пока сушит?', correct: 'Полотенце', explanation: 'Верно! Полотенце намокает, когда вытирает что-то.' },
         ];
         let currentQuestionIndex = 0;
 
@@ -323,14 +354,8 @@
             testOptions.forEach(opt => opt.style.display = 'inline-block');
             const q = questions[index];
             testQuestion.textContent = q.q;
-            // Обновим варианты ответов
             const optionButtons = document.querySelectorAll('.test-option');
-            // Соберём все варианты: правильный + неправильные
-            const allOptions = [q.correct];
-            // Добавим неправильные из других вопросов или статичные
-            const distractors = ['Квадрат', 'Треугольник', 'Прямоугольник', '10', 'Март', 'Февраль', 'Губка', 'Вода',
-                'Солнце'
-            ];
+            const distractors = ['Квадрат', 'Треугольник', 'Прямоугольник', '10', 'Март', 'Февраль', 'Губка', 'Вода', 'Солнце'];
             const filteredDistractors = distractors.filter(d => d !== q.correct).slice(0, 3);
             const finalOptions = [q.correct, ...filteredDistractors].sort(() => Math.random() - 0.5);
 
@@ -356,8 +381,7 @@
                     testResult.textContent = '✅ ' + questions[currentQuestionIndex].explanation;
                     testResult.style.color = 'var(--success)';
                 } else {
-                    testResult.textContent = '❌ Не совсем. Правильный ответ: ' + questions[currentQuestionIndex]
-                        .correct;
+                    testResult.textContent = '❌ Не совсем. Правильный ответ: ' + questions[currentQuestionIndex].correct;
                     testResult.style.color = '#e53e3e';
                 }
                 testNext.style.display = 'inline-block';
@@ -370,7 +394,6 @@
             loadQuestion(currentQuestionIndex);
         });
 
-        // Инициализируем первый вопрос
         loadQuestion(0);
 
         // ===== GIFT FORM =====
@@ -385,8 +408,7 @@
             } else {
                 giftMessage.textContent = '⚠️ Пожалуйста, введите корректный email.';
                 giftMessage.style.color = '#e53e3e';
-                setTimeout(() => { giftMessage.style.color = 'var(--success)';
-                    giftMessage.textContent = ''; }, 2500);
+                setTimeout(() => { giftMessage.style.color = 'var(--success)'; giftMessage.textContent = ''; }, 2500);
             }
         });
 
@@ -396,8 +418,10 @@
         const enrollModal = document.getElementById('enrollModal');
         const submitEnroll = document.getElementById('submitEnroll');
         const enrollMessage = document.getElementById('enrollMessage');
+        const modalTitle = enrollModal.querySelector('.modal__title');
 
         openEnrollModal.addEventListener('click', () => {
+            modalTitle.textContent = 'Запись на курс';
             enrollModal.classList.add('active');
         });
         closeEnrollModal.addEventListener('click', () => {
@@ -428,12 +452,11 @@
             } else {
                 enrollMessage.textContent = '⚠️ Заполните все поля.';
                 enrollMessage.style.color = '#e53e3e';
-                setTimeout(() => { enrollMessage.style.color = 'var(--success)';
-                    enrollMessage.textContent = ''; }, 2500);
+                setTimeout(() => { enrollMessage.style.color = 'var(--success)'; enrollMessage.textContent = ''; }, 2500);
             }
         });
 
-        // ===== SMOOTH SCROLL FOR ALL ANCHOR LINKS (доп. гарантия) =====
+        // ===== SMOOTH SCROLL =====
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 const href = this.getAttribute('href');
@@ -442,14 +465,13 @@
                 if (target) {
                     e.preventDefault();
                     const headerHeight = header.offsetHeight;
-                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset -
-                        headerHeight - 10;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 10;
                     window.scrollTo({ top: targetPosition, behavior: 'smooth' });
                 }
             });
         });
 
-        console.log('🚀 Super Jump — сайт интеллект-тренера готов к работе!');
+        console.log('🚀 Super Jump — сайт интеллект-тренера готов!');
     </script>
 </body>
 </html>
